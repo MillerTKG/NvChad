@@ -1,6 +1,6 @@
 local map = vim.keymap.set
 
---test
+-- Testing hotkey issue
 
 map("i", "<C-b>", "<ESC>^i", { desc = "move beginning of line" })
 map("i", "<C-e>", "<End>", { desc = "move end of line" })
