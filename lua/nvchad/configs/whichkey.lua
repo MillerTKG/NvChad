@@ -5,7 +5,7 @@ return {
   triggers = {
     { "<auto>", mode = "nixsotc" },
     { "s", mode = { "n", "v" } },
-    -- { "a", mode = { "n", "v" } },
+    { "a", mode = { "n", "v" } },
   },
   -- spec = {
   --   -- { "<leader>c", group = "[C]ode", mode = { "n", "x" } },
