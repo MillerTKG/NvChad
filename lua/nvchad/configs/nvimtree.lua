@@ -1,4 +1,4 @@
-dofile(vim.g.base46_cache .. "nvimtree")
+dofile(vim.g.base46_cache .. 'nvimtree')
 
 return {
   filters = { dotfiles = false },
@@ -19,15 +19,15 @@ return {
     indent_markers = { enable = true },
     icons = {
       glyphs = {
-        default = "󰈚",
+        default = '󰈚',
         folder = {
-          default = "",
-          empty = "",
-          empty_open = "",
-          open = "",
-          symlink = "",
+          default = '',
+          empty = '',
+          empty_open = '',
+          open = '',
+          symlink = '',
         },
-        git = { unmerged = "" },
+        git = { unmerged = '' },
       },
     },
   },

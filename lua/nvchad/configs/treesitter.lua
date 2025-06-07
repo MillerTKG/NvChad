@@ -1,10 +1,10 @@
 pcall(function()
-  dofile(vim.g.base46_cache .. "syntax")
-  dofile(vim.g.base46_cache .. "treesitter")
+  dofile(vim.g.base46_cache .. 'syntax')
+  dofile(vim.g.base46_cache .. 'treesitter')
 end)
 
 return {
-  ensure_installed = { "lua", "luadoc", "printf", "vim", "vimdoc" },
+  ensure_installed = { 'lua', 'luadoc', 'printf', 'vim', 'vimdoc' },
 
   highlight = {
     enable = true,

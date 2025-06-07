@@ -1,13 +1,13 @@
-dofile(vim.g.base46_cache .. "mason")
+dofile(vim.g.base46_cache .. 'mason')
 
 return {
-  PATH = "skip",
+  PATH = 'skip',
 
   ui = {
     icons = {
-      package_pending = " ",
-      package_installed = " ",
-      package_uninstalled = " ",
+      package_pending = ' ',
+      package_installed = ' ',
+      package_uninstalled = ' ',
     },
   },
 
