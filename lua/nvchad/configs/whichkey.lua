@@ -4,7 +4,7 @@ return {
   delay = 0,
   triggers = {
     { "<auto>", mode = "nixsotc" },
-    { "s", mode = { "n", "v" } },
+    -- { "s", mode = { "n", "v" } },
   },
   -- spec = {
   --   -- { "<leader>c", group = "[C]ode", mode = { "n", "x" } },
