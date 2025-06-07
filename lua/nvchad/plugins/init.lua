@@ -9,7 +9,7 @@ return {
   },
 
   {
-    "nvchad/ui",
+    "MillerTKG/NvChad.ui",
     lazy = false,
     config = function()
       require "nvchad"
