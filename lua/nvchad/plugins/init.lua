@@ -60,13 +60,13 @@ return {
     event = 'VimEnter',
     -- keys = { "<leader>", "<c-w>", '"', "'", "`", "c", "v", "g" },
     cmd = 'WhichKey',
-    config = function()
-      require 'nvchad.configs.whichkey'
-    end,
-    -- opts = function()
-    --   -- dofile(vim.g.base46_cache .. "whichkey")
-    --   return require 'nvchad.configs.whichkey'
+    -- config = function()
+    --   require 'nvchad.configs.whichkey'
     -- end,
+    opts = function()
+      --   -- dofile(vim.g.base46_cache .. "whichkey")
+      return require 'nvchad.configs.whichkey'
+    end,
   },
 
   -- formatting!
