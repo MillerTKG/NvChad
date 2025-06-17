@@ -62,11 +62,11 @@ M.defaults = function()
 			workspace = {
 				library = {
 					vim.fn.expand('$VIMRUNTIME/lua'),
-					-- vim.fn.expand('$LOCALAPPDATA/NvChad/NvChad/lua'),
-					-- vim.fn.expand('$LOCALAPPDATA/NvChad/NvChad.ui/lua'),
+					vim.fn.expand('$LOCALAPPDATA/NvChad/NvChad/lua'),
+					vim.fn.expand('$LOCALAPPDATA/NvChad/NvChad.ui/lua'),
 					--C:\Users\Miller\AppData\Local\NvChad-starter-data\lazy\nvim-ufo\lua
 					-- vim.fn.stdpath('data') .. '/lazy/*/lua',
-					vim.fn.stdpath('data') .. '/lazy/**/lua',
+					-- vim.fn.stdpath('data') .. '/lazy/**/lua',
 					vim.fn.stdpath('data') .. '/lazy/ui/nvchad_types',
 					vim.fn.stdpath('data') .. '/lazy/lazy.nvim/lua/lazy',
 					'${3rd}/luv/library',
